@@ -1,3 +1,4 @@
+curl https://api.github.com/repos/Federicofina24/mcino-Introduction-to-Git-and-GitHub
 {
   "id": 1205240869,
   "node_id": "R_kgDOR9aEJQ",
@@ -100,9 +101,7 @@
   "web_commit_signoff_required": false,
   "has_pull_requests": true,
   "pull_request_creation_policy": "all",
-  "topics": [
-
-  ],
+  "topics": [],
   "visibility": "public",
   "forks": 0,
   "open_issues": 0,
@@ -211,9 +210,7 @@
     "web_commit_signoff_required": false,
     "has_pull_requests": true,
     "pull_request_creation_policy": "all",
-    "topics": [
-
-    ],
+    "topics": [],
     "visibility": "public",
     "forks": 5919,
     "open_issues": 25,
@@ -315,22 +312,4 @@
       "name": "Apache License 2.0",
       "spdx_id": "Apache-2.0",
       "url": "https://api.github.com/licenses/apache-2.0",
-      "node_id": "MDc6TGljZW5zZTI="
-    },
-    "allow_forking": true,
-    "is_template": true,
-    "web_commit_signoff_required": false,
-    "has_pull_requests": true,
-    "pull_request_creation_policy": "all",
-    "topics": [
-
-    ],
-    "visibility": "public",
-    "forks": 5919,
-    "open_issues": 25,
-    "watchers": 8,
-    "default_branch": "main"
-  },
-  "network_count": 5919,
-  "subscribers_count": 0
-}
+      "node_id": "MDc6TGljZW
