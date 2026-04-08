@@ -11,3 +11,6 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push origin main
+Everything up-to-date
