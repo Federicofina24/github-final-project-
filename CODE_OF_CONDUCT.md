@@ -15,5 +15,17 @@ Centrarse en lo que es mejor para la comunidad.
 
 Mostrar empatía hacia otros miembros de la comunidad.
 
-Nuestras Responsabilidades
+Responsabilidades de Aplicación
 Los administradores del proyecto son responsables de aclarar los estándares de comportamiento aceptable y se espera que tomen medidas correctivas apropiadas y justas en respuesta a cualquier instancia de comportamiento inaceptable.
+
+Alcance
+Este código de conducta se aplica tanto dentro de los espacios del proyecto como en los espacios públicos cuando un individuo representa al proyecto o a su comunidad.
+
+Aplicación
+Los casos de comportamiento abusivo, acosador o inaceptable pueden notificarse poniéndose en contacto con el equipo del proyecto. Todas las quejas serán revisadas e investigadas y darán lugar a una respuesta necesaria y apropiada a las circunstancias.
+
+Directrices de Aplicación
+Los administradores del proyecto seguirán estas Directrices de Impacto en la Comunidad para determinar las consecuencias de cualquier acción que consideren que infringe este Código de Conducta.
+
+Atribución
+Este Código de Conducta es una adaptación del Contributor Covenant, versión 1.4.
