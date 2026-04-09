@@ -1,2 +1,3 @@
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6752 | jq -r '.head.repo.clone_url'
-https://github.com/Federicofina24/mcino-Introduction-to-Git-and-GitHub.git
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6752 | jq -r '.head.label, .head.repo.html_url'
+Federicofina24:bug-fix-typo
+https://github.com/Federicofina24/mcino-Introduction-to-Git-and-GitHub
