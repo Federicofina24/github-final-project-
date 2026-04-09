@@ -1,1 +1,28 @@
-
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ curl -s https://api.github.com/repos/Federicofina24/mcino-Introduction-to-Git-and-GitHub/pulls/[6752]
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ curl curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/<6752> | jq -r '.head.repo.clone_url'
+bash: syntax error near unexpected token `6752'
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/<6752> | jq -r '.head.repo.clone_url'
+bash: syntax error near unexpected token `6752'
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ curl curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6752 | jq -r '.head.repo.clone_url'
+https://github.com/Federicofina24/mcino-Introduction-to-Git-and-GitHub.git
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6752 | jq -r '.head.repo.clone_url'
+https://github.com/Federicofina24/mcino-Introduction-to-Git-and-GitHub.git
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ git branch -vv
+  bug-fix-typo 078d641 Fix typo: update footer year to 2023
+* main         689ba42 [origin/main] Revert "Fix typo: update footer year to 2023"
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
+and-GitHub$ git checkout -b bug-fix-revert
+Switched to a new branch 'bug-fix-revert'
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$
+ git branch -vv
+* bug-fix-revert 689ba42 Revert "Fix typo: update footer year to 2023"
+  bug-fix-typo   078d641 Fix typo: update footer year to 2023
+  main           689ba42 [origin/main] Revert "Fix typo: update footer year to 2023"
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$
+ 
