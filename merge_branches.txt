@@ -1,50 +1,9 @@
-theia@theia-federicogonz:/home/project$ git clone https://github.
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ git checkout -b bug-fix-typo
-Switched to a new branch 'bug-fix-typo'
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ git add README.md
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ git commit -m "Fix typo: update footer year to 2023"
-Author identity unknown
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$[00m$ git commit -m "Fix typo: update footer year to 2and-GitHub$ git commit -m "Fix typo: update footer year to 2023"
-[bug-fix-typo 078d641] Fix typo: update footer year to 2023
- 1 file changed, 1 insertion(+), 1 deletion(-)
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ git push origin bug-fix-typo
-Username for 'https://github.com': Federicofina24
-Password for 'https://Federicofina24@github.com': 
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-remote: 
-remote: Create a pull request for 'bug-fix-typo' on GitHub by visiting:
-remote:      https://github.com/Federicofina24/mcino-Introduction-to-Git-and-GitHub/pull/new/bug-fix-typo
-remote: 
-To https://github.com/Federicofina24/mcino-Introduction-to-Git-and-GitHub.git
- * [new branch]      bug-fix-typo -> bug-fix-typo
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ git checkout main
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ git merge bug-fix-typo
+theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
 Updating ad95b0a..078d641
 Fast-forward
  README.md | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
-theia@theia-federicogonz:/home/project/mcino-Introduction-to-Git-
-and-GitHub$ 
 
